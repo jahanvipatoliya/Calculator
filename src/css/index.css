@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.home-main .MuiFormControl-root {
+  display: block;
+}
+.home-main .MuiFormControl-root button {
+  margin-top: 30px;
+}
